@@ -4,7 +4,7 @@ body {
   background-image: url(img/background.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 200vh;
+  background-size: auto 300vw;
   font-size: 15pt;
   color: white;
 }
@@ -32,9 +32,13 @@ hr {
 #ko-fi {
   height: 65px;
   transition: 0.5s;
+  border-radius: 25px;
+  border: 2px solid transparent;
 }
 #ko-fi:hover {
-  filter: brightness(25%);
+  filter: brightness(125%);
+  border: 2px solid white;
+  transition: 0.5s ease-in-out;
 }
 #container {
   width: 300px;
